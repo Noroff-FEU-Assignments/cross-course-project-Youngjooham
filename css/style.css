@@ -99,7 +99,9 @@ display: flex;
 }
 
 #button1 {
-    margin-left: 32em;
+  color: white;
+  font-weight: bold;  
+  margin-left: 32em;
     margin-top: 40px;
     width: 150px;
     border-radius: 50px; 
@@ -109,7 +111,8 @@ display: flex;
 }
 
 #button2 {
-
+    color:white;
+    font-weight: bold;
     margin-right: 36em;
     margin-top: 40px;
     float: right;
@@ -118,8 +121,4 @@ display: flex;
     padding: 14px 25px;
     background-color: #0a3641
 
-}
-
-#boxed{
-    border: 5px solid green;
 }
