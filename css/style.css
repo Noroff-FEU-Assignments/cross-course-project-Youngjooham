@@ -63,7 +63,6 @@ display: flex;
   border-color: grey;
   border-width: 1px;
   font-weight: bold;
-
 }
 
 #rainyDaysLogo{
@@ -73,7 +72,7 @@ display: flex;
 }
 
 #rainCoat1 {
-    width: 305px;
+    width: 300px;
     height: 450px;
     margin-right: -5.5px;
     padding-left: 200px;
@@ -89,14 +88,14 @@ display: flex;
     height: 450px;
     float: right;
     margin-right: 200px; 
-}
+  }
 
 #rainCoat4 {
     width: 300px;
     height: 450px;
     float: right;
     margin-right: 100px;
-}
+  }
 
 #button1 {
   color: white;
@@ -107,8 +106,7 @@ display: flex;
     border-radius: 50px; 
     padding: 14px 25px;
     background-color: #0a3641
-    
-}
+  }
 
 #button2 {
     color:white;
@@ -120,5 +118,432 @@ display: flex;
     border-radius: 50px; 
     padding: 14px 25px;
     background-color: #0a3641
+  }
 
-}
+  .container{
+    background-color: #DCDCDC;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 400px;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  .footer{
+    padding: 70px 0;
+    background-color: #DCDCDC
+    }
+
+  .footer-col{
+    width: 30%;
+    padding: 0 15px;
+  }
+
+  .footer-col h4{
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+  }
+
+  .footer-col ul li{
+    margin-bottom: 40px;
+  }
+
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000
+  }
+
+  .rain_Coat {
+    width: 300px;
+    height: 350px;
+    border: 1px solid #707070;
+    padding: 10px 10px 20px 
+  }
+  
+  .productCard {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #rain_Coats{
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 50px;
+    padding-bottom: 150px; */
+    justify-content: center;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    }
+    
+    @media only screen and (max-width: 600px) { 
+      #rain_Coats{
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+        .container{
+          padding-left: 0px;
+        }
+     }
+
+  body{
+       background: #DCDCDC;
+       min-height: 100%;
+  }
+
+  .contact-container {
+    background-color: #ffffff;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 30px;
+  }
+
+  .right-container {
+    width: 50%;
+    position: relative;
+    border-left: 1px solid;
+    border-color: #707070;
+    margin-top: 30px;
+  }
+
+  .contact-button {
+    background-color: #0a3641;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    height: 50px;
+    width: 100%;
+    position: absolute; 
+    right: 0;
+    bottom: 0; 
+  }
+
+  .input {
+    border: none;
+    border-bottom: 2px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: #707070;
+    width: 150%;
+  }
+
+  .input:focus{
+    outline: none;
+    border-bottom: 1px solid;
+  }
+
+  .contactform-message{
+    font-weight: 400;
+    padding-left: 15px;
+  }
+
+  .writeHere {
+    color: #707070;
+    padding-left: 25 px;
+    padding-top: 10px;
+  }
+
+  .contactform-title {
+    font-weight: 400;
+    border-bottom: 3px solid #0a3641;
+    margin-bottom: 30px;
+  }
+  
+  .details-container {
+    background-color: #ffffff;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .leftdetails-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 30px;
+  }
+  
+  .rightdetails-container {
+    width: 50%;
+    position: relative;
+    border-left: 1px solid;
+    border-color: #707070;
+    margin-top: 30px;
+    padding-left: 20px;
+  }
+
+  .detailsForm-title {
+    font-weight: 400;
+    border-bottom: 3px solid #0a3641;
+    margin-bottom: 30px;
+  }
+
+  .checkout-button {
+    background-color: #0a3641;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    height: 50px;
+    width: 100%;
+    position: absolute; 
+    right: 0;
+    bottom: 0; 
+  }
+
+  .aboutUs{
+    background-color: #ffffff;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .aboutRainyDays {
+    font-weight: 100;
+    padding-top: 50px;
+    padding-left: 350px;
+  }
+
+  .aboutLogo{
+    width: 300px;
+    height: 150px;
+    padding-left: 350px;
+    padding-top: 20px;
+  }
+
+  .aboutText{
+    color:#707070;
+    padding-left: 350px;
+    padding-top: 30px;
+  }
+
+  .productPage {
+    background-color: #ffffff;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .productInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 35%;
+    height: 80%;
+    margin-top: 30px;
+    border: 1px solid #707070;
+  }
+
+  .productInfoTextContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productInfoText{
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .productPrice {
+    width: 35%;
+    height: 80%;
+    position: relative;
+    border-left: 1px solid;
+    border-color: #707070;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .productPriceTextContainer{
+    border: 1px solid #707070;
+    width: 70%;
+    height: 80%;
+  }
+
+  .productPriceText {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding-bottom: 20px; 
+  }
+
+  .productPriceTextDiscount{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 10px;
+  }
+
+  .productPriceTextAmount {
+    margin-left: auto;
+  }
+
+  .productCoatImage {
+    width: 200px;
+    height: auto;
+  }
+
+  .product-Button {
+    background-color: #0a3641;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 200;
+    height: 50px;
+    width: 70%;
+    position: absolute; 
+    bottom: 0; 
+  }
+
+  .checkoutSuccess{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .orderConfirmed {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 30px;
+    padding-left: 400px;
+    padding-right: 100px;
+  }
+
+  .productConfirmed{
+    width: 100px;
+    height: 150px;
+    border: 1px solid #757575
+  }
+
+  .inputOrder{
+    border: none;
+    border-bottom: 2px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: #707070;
+    width: 100%;
+  }
+
+  .yourOrderConfirmed {
+    font-weight: 100;
+    margin-bottom: 30px;
+  }
+
+  .orderTextDescription {
+    margin-top: 30px;
+  }
+
+  .orderThankYou {
+    margin-top: 50px;
+  }
+
+  .orderRainydays {
+    margin-top: 30px;
+  }
+
+  .paymentDetailsContainer{
+    border: 1px solid #707070;
+    width: 50%;
+    padding: 50px; 
+    border-radius: 20%;
+    margin-top: 10px;
+  }
+
+  .paymentDetailsInput{
+    border: none;
+    border-bottom: 2px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: #707070;
+    width: 100%;
+  }
+
+  .paymentDetailsInput:focus{
+    outline: none;
+    border-bottom: 1px solid;
+  }
+
+  .paymentDetailsBottomInputs{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .paymentDetailsShortInput{
+    border: none;
+    border-bottom: 2px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: #707070;
+    width: 100%;
+  }
+
+  .paymentDetailsShortInput:focus{
+    outline: none;
+    border-bottom: 1px solid;
+  }
+
+  .paymentDetailsCVV{
+    margin-left: auto;
+  }
+
+  .orderText{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .amount {
+    margin-left: auto;
+  }
+
+  .orderTextDetails{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #707070;
+  }
+
+  .orderProduct {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .orderProductInfo{
+    margin-left: 30px;
+  }
+  
+  .confirmationDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-bottom: 50px;
+  }
