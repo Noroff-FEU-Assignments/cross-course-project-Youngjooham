@@ -51,21 +51,21 @@ nav ul li a {
 }
 
 #subNavigationBar {
-display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #fff;
-  border-style: solid;
-  border-color: grey;
-  border-width: 1px;
-  font-weight: bold;
-}
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    font-weight: bold;
+  }
 
-#rainyDaysLogo{
+  #rainyDaysLogo{
     width: 300px;
     height: 150px;
     padding-left: 350px;
