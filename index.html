@@ -1,114 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Rainydays</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!-- Hotjar Tracking Code for https://resilient-gumdrop-162bd6.netlify.app -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3185629,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-  </head>
-  <body>
-    <div id="main">
-      <nav>
-        <div id="navigationBar">
-          <div id="navigationLogo">Rainydays</div>
-          <div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li>
-                  <a
-                    ><svg id="navbaricon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="30"
-                      height="30"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        id="ic_person_outline_24px"
-                        d="M12,5.9A2.1,2.1,0,1,1,9.9,8,2.1,2.1,0,0,1,12,5.9m0,9c2.97,0,6.1,1.46,6.1,2.1v1.1H5.9V17c0-.64,3.13-2.1,6.1-2.1M12,4a4,4,0,1,0,4,4A4,4,0,0,0,12,4Zm0,9c-2.67,0-8,1.34-8,4v3H20V17C20,14.34,14.67,13,12,13Z"
-                        transform="translate(-4 -4)"
-                        fill="#fff"
-                      /></svg>
-                    </a>
-                </li>
-                <li>
-                  <a>
-                      <svg id="navbaricon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="30"
-                      height="30"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        id="ic_shopping_cart_24px"
-                        d="M7,18a2,2,0,1,0,2,2A2,2,0,0,0,7,18ZM1,2V4H3l3.6,7.59L5.25,14.04A1.933,1.933,0,0,0,5,15a2.006,2.006,0,0,0,2,2H19V15H7.42a.248.248,0,0,1-.25-.25l.03-.12L8.1,13h7.45a1.991,1.991,0,0,0,1.75-1.03l3.58-6.49A.977.977,0,0,0,21,5a1,1,0,0,0-1-1H5.21L4.27,2H1ZM17,18a2,2,0,1,0,2,2A2,2,0,0,0,17,18Z"
-                        transform="translate(-1 -2)"
-                        fill="#fff"
-                      /></svg>
-                    </a>
-                </li>
-              </ul>
-          </div>
-        </div>
-      </nav>
-      <div id="subNavigationBar">
-        <p>Free shipping over 1990 kr  </p>
-        <p>30 days Full Refund</p>
-        <p>No.1 in Rainwear in Scandinavia</p>
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Homepage">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="author" name="Young Joo Ham">
+  <link rel="stylesheet" href="css/style.css" media="all"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+  <title>Home</title>
+</head>
+<body>
+  <nav>
+    <a class="logolink" href="index.html">
+    <div class="logoContainer">
+      <label class="logoText-mobile">Rainy Days</label>
+      <label class="logoText">Rainy Days</label>
     </div>
-    <img src="images/Rainydays.png" id="rainyDaysLogo">
-    <div id="rainCoats">
-        <img src="images/raincoat_jpg1.jpg" id="rainCoat1"> 
-        <img src="images/raincoat_jpg2.jpg" id="rainCoat2">
-        <img src="images/raincoat_PNG3.png" id="rainCoat3">
-        <img src="images/raincoat_PNG4.png" id="rainCoat4">
+    </a>
+    <ul class="menuList">
+      <li class="menuItem-selected"><a href="index.html">Home</a></li>
+      <li class="menuItem"><a href="product.html">Product</a></li>
+      <li class="menuItem"><a href="about.html">About</a></li>
+      <li class="menuItem"><a href="contact.html">Contact</a></li>
+      <li class="menuItem"><a href="cart.html">Cart</a></li>
+    </ul>
+    <label class="hamburger-icon" for="hamburger-checkbox"><i class="fa fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-checkbox">
+    <div class="hamburger-content">
+      <ul class="hamburger-menuList">
+        <li class="menuItem-selected"><a href="index.html">Home</a></li>
+        <li class="menuItem"><a href="product.html">Product</a></li>
+        <li class="menuItem"><a href="about.html">About Us</a></li>
+        <li class="menuItem"><a href="contact.html">Contact</a></li>
+        <li class="menuItem"><a href="cart.html">Cart</a></li>
+      </ul>
     </div>
-    <div>
-    <button type="button" id="button1">ABOUT US</button>
-    <button type="button" id="button2">EXPLORE</button>
-</div>
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="footer-col">
-        <h4>Help</h4>
-        <ul>
-          <li><a href="#">About Rainydays</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Shipping and delivery</a></li>
-          <li><a href="#">Return/Exchange</a></li>
-          <li><a href="#">Gift Card</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Terms&Conditions</h4>
-        <ul>
-          <li><a href="#">Terms of use</a></li>
-          <li><a href="#">Terms of Purchase</a></li>
-          <li><a href="#">Privacy of Policy</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Work at Rainydays</h4>
-        <ul>
-          <li><a href="#">Vacancies</a></li>
-        </ul>
+  </nav>
+  <div class="gallery">
+    <div class="gallery-mainImage w-4 h-6">
+      <div class="gallery-item">
+        <img src="images/raincoat_jpg1.jpg" alt="Man wearing a red raincoat looking at a waterfall"/>
+        <h1 class="text">Home</h1>
       </div>
     </div>
   </div>
-</footer>
+  <footer class="footer">
+    <div class="l-footer">
+      <h2>Help</h2>
+      <ul class="box">
+          <li><a href="about.html">About Rainydays</a></li>
+          <li><a href="about.html">Contact Us</a></li>
+          <li><a href="about.html">Shipping and delivery</a></li>
+          <li><a href="about.html">Gift Card</a></li>
+        </ul>
     </div>
-  </body>
-</html>
-
-
+    <ul class="r-footer">
+    <li>
+      <h2>Terms&Conditions</h2>
+    <ul class="box">
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Terms of Purchase</a></li>
+        <li><a href="#">Privacy of Policy</a></li>
+    </ul>
+    </li>
+    <li>
+      <h2>Work at Rainydays</h2>
+    <ul class="box h-box">
+      <li><a href="#">INFO@RAINYDAYS.COM</a></li>
+    </ul>
+    </li>
+    <li>
+      <h2>Get Involved</h2>
+    <ul class="box">
+     <li><a href="contact.html">Membership</a></li>
+     <li><a href="contact.html">Events</a></li>
+     <li><a href="contact.html">Support</a></li>
+    </ul>
+    </li>
+    </ul>
+    <div class="b-footer">
+    <p> ©All rights reserved by ©Rainy Days 2022</p>
+    </div>
+    </footer>
+  
