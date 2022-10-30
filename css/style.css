@@ -422,6 +422,11 @@ nav{
   font-weight: 300;
 }
  
+.product-image{
+  min-height: 250px;
+}
+
+
 button[class*=btn] {
   width: 30px;
   height: 30px;
@@ -450,8 +455,6 @@ input:focus {
   color: #43484D;
   font-weight: 300;
 }
-
-
 
   @media screen and (min-width: 600px) {
   .r-footer > * {

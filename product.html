@@ -10,17 +10,6 @@
   <link rel="stylesheet" href="css/style.css" media="all"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
   <title>Product</title>
-  <!-- Hotjar Tracking Code for https://silver-cassata-50d2bc.netlify.app/# -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3185674,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
 </head>
 <body>
   <nav>
@@ -49,49 +38,36 @@
       </ul>
     </div>
   </nav>
-  <div class="gallery">
-    <div class="gallery-mainImage w-2 h-4">
-      <div class="gallery-item">
-        <img src="images/raincoat_jpg2.jpg" alt=""/>
-        <h1 class="text">Products</h1>
-    </div>
-    </div>
-    <div class="gallery-image w-1 h-2">
-        <div class="gallery-item">
-            <a href="cart.html">
-                <img src="images/raincoat_PNG3.png" alt=""/>
-                <div class="text">Yellow rain coat</div>
-            </a>
+  <h1>Products</h1>
+    <div>
+        <div class="search">
+            <input type="search" id="search-input" />
+            <button class="search-button">Search</button>
+        </div>
+        <div class="categories">
+            <label for="featured">Featured</label>
+            <input type="radio" id="featured" class="category" name="category" value="true" />
+            <label for="featured">Premium</label>
+            <input type="radio" id="premium" class="category" name="category" value="18" />
+            <label for="featured">Simple</label>
+            <input type="radio" id="simple" class="category" name="category" value="19" />
+            <label for="featured">Summer</label>
+            <input type="radio" id="summer" class="category" name="category" value="20" />
+        </div>
+        <div class="per-page">
+            <label for="">Number per page</label>
+            <select class="per-page-selection">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five</option>
+            </select>
         </div>
     </div>
-
-    <div class="gallery-image w-1 h-2">
-        <div class="gallery-item">
-          <a href="cart.html">
-            <img src="images/raincoat_PNG4.png" alt=""/>
-            <div class="text">Blue raincoat</div>
-          </a>
-        </div>
-    </div>
-
-    <div class="gallery-image w-1 h-2">
-        <div class="gallery-item">
-          <a href="cart.html">
-            <img src="images/raincoat_PNG5.png" alt=""/>
-            <div class="text">Black adidas raincoat</div>
-          </a>
-        </div>
-    </div>
-
-    <div class="gallery-image w-1 h-2">
-        <div class="gallery-item">
-          <a href="cart.html">
-            <img src="images/raincoat_PNG6.png" alt=""/>
-            <div class="text">Black raincoat</div>
-          </a>
-        </div>
-    </div>
-  </div>
+    <div class="products"></div>
+    <script src="WP-API/js/index.js"></script>
+</body>
   <footer class="footer">
     <div class="l-footer">
       <h2>Help</h2>
