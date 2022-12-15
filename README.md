@@ -16,8 +16,8 @@ The site should be WCAG compliant and accessibility taken into account.
 Each page should have a unique meta description, title, and h1.
 You should not use copied code in your submission. All code submitted must be written by you. You may use external sources to show you how to achieve specific effects, and these should be included in your report.
 
-- SEO
 - WCAG
+- DRY
 - Responsiveness Design
 
 ## Built With
