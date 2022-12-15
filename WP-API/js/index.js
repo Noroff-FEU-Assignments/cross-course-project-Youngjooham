@@ -41,7 +41,7 @@ categories.forEach(function(category){
 
 searchButton.onclick = function(){
     const searchInput = document.querySelector("#search-input").value;
-    const newUrl = baseUrl + `?search=${SearchInput}`;
+    const newUrl = baseUrl + `?search=${searchInput}`;
     productContainer.innerHTML = "";
     getProducts(newUrl); 
 }
