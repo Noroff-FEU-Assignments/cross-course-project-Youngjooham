@@ -34,9 +34,9 @@ You should not use copied code in your submission. All code submitted must be wr
 -  git clone https://github.com/Noroff-FEU-Assignments/cross-course-project-Youngjooham.git
 ```
 2. Install the dependencies:
-
+```bash
    npm install 
-
+```
 ## Running
 
 Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
