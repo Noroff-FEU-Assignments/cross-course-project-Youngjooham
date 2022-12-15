@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Contact page">
+  <meta name="keywords" content="HTML, CSS">
+  <meta name="author" name="Young Joo Ham">
+  <link rel="stylesheet" href="css/style.css" media="all"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+  <title>Contact Us</title>
+</head>
+<body>
+  <nav>
+    <a class="logolink" href="index.html">
+    <div class="logoContainer">
+      <label class="logoText-mobile">Rainy Days</label>
+      <label class="logoText">Rainy Days</label>
+    </div>
+    </a>
+    <ul class="menuList">
+      <li class="menuItem"><a href="index.html">Home</a></li>
+      <li class="menuItem"><a href="product.html">Product</a></li>
+      <li class="menuItem"><a href="about.html">About</a></li>
+      <li class="menuItem-selected"><a href="contact.html">Contact</a></li>
+      <li class="menuItem"><a href="cart.html">Cart</a></li>
+    </ul>
+    <label class="hamburger-icon" for="hamburger-checkbox"><i class="fa fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-checkbox">
+    <div class="hamburger-content">
+      <ul class="hamburger-menuList">
+        <li class="menuItem"><a href="index.html">Home</a></li>
+        <li class="menuItem"><a href="product.html">Product</a></li>
+        <li class="menuItem"><a href="about.html">About Us</a></li>
+        <li class="menuItem-selected"><a href="contact.html">Contact</a></li>
+        <li class="menuItem"><a href="cart.html">Cart</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="gallery">
+    <div class="gallery-mainImage w-3 h-4">
+      <div class="gallery-item">
+      <div class="image">
+        <img src="images/image1.jpg" alt=""/>
+        <h1 class="text">Contact</h1>
+      </div>
+    </div>
+    </div>
+  </div>
+  <body>
+    <main class="container">
+        <form id="contactForm">
+            <div>
+                <label>
+                    First Name 
+                    <input name="fullName" id="firstName" />
+                </label>
+                <div class="form-error" id="firstNameError">Please enter your first name</div>
+            </div>
+
+            <div>
+                <label>
+                    Last Name 
+                    <input name="lastName" id="lastName" />
+                </label>
+                <div class="form-error" id="lastNameError">Please enter your last name</div>
+            </div>
+
+            <div>
+                <label>
+                    Email (required)
+                    <input name="email" id="email" />
+                </label>
+                <div class="form-error" id="emailError">Please enter a valid email address</div>
+            </div>
+
+            <div>
+                <label>
+                    Address (minimum 20 characters)
+                    <input name="address" id="address" />
+                </label>
+                <div class="form-error" id="addressError">Please enter a valid address</div>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </main>
+    <script src="js/contact.js"></script>
+</body>
+<footer class="footer">
+  <div class="l-footer">
+    <h2>Help</h2>
+    <ul class="box">
+        <li><a href="about.html">About Rainydays</a></li>
+        <li><a href="about.html">Contact Us</a></li>
+        <li><a href="about.html">Shipping and delivery</a></li>
+        <li><a href="about.html">Gift Card</a></li>
+      </ul>
+  </div>
+  <ul class="r-footer">
+  <li>
+    <h2>Terms&Conditions</h2>
+  <ul class="box">
+      <li><a href="#">Terms of use</a></li>
+      <li><a href="#">Terms of Purchase</a></li>
+      <li><a href="#">Privacy of Policy</a></li>
+  </ul>
+  </li>
+  <li>
+    <h2>Work at Rainydays</h2>
+  <ul class="box h-box">
+    <li><a href="#">INFO@RAINYDAYS.COM</a></li>
+  </ul>
+  </li>
+  <li>
+    <h2>Get Involved</h2>
+  <ul class="box">
+   <li><a href="contact.html">Membership</a></li>
+   <li><a href="contact.html">Events</a></li>
+   <li><a href="contact.html">Support</a></li>
+  </ul>
+  </li>
+  </ul>
+  <div class="b-footer">
+  <p> ©All rights reserved by ©Rainy Days 2022</p>
+  </div>
+</footer>
+  
